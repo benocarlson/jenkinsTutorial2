@@ -38,8 +38,15 @@ class Calculator {
     .
     etc
      */
-    int fibonacciNumberFinder(int n){
-        return 0;
+    int fibonacciNumberFinder(int n) {
+        int current = 0;
+        int next = 1;
+        for (int i = 0; i < n; i++) {
+            int temp = current + next;
+            current = next;
+            next = temp;
+        }
+        return current;
     }
 
 
@@ -51,7 +58,9 @@ class Calculator {
     if int a = 16 then this method returns: 10000
      */
     String intToBinaryNumber(int n){
-        return null;
+        StringBuilder sb = new StringBuilder();
+
+        return "";
     }
 
     /*
