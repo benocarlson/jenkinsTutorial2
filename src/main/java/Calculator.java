@@ -3,7 +3,7 @@ import java.util.UUID;
 class Calculator {
 
     Calculator(){
-
+        // nothing to do here
     }
 
     int add(int a , int b){
