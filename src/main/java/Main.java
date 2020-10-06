@@ -3,6 +3,7 @@ public class Main {
 
         if (args.length < 2) {
             System.out.println("Must have command line arguments");
+            return;
         }
 
         String function = args[0];
