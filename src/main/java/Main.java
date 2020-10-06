@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        final String usage = "Usage: <cmd> <num1> <num2>";
 
         if (args.length < 2) {
-            System.out.println(usage);
+            System.out.println("Must have command line arguments");
         }
 
         String function = args[0];
